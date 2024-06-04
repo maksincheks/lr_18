@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 498
+  Height = 370
+  Top = 198
+  Width = 644
+  Caption = 'Form1'
+  ClientHeight = 370
+  ClientWidth = 644
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 12
+    Height = 25
+    Top = 7
+    Width = 107
+    Caption = 'Объем куба'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sideLength: TEdit
+    Left = 16
+    Height = 23
+    Top = 72
+    Width = 99
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 17
+    Height = 21
+    Top = 40
+    Width = 98
+    Caption = 'Длина ребра'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 17
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'Рассчитать'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 161
+    Height = 16
+    Top = 145
+    Width = 85
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 17
+    Height = 21
+    Top = 140
+    Width = 138
+    Caption = 'Объем куба равен'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
